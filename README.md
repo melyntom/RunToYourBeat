@@ -7,3 +7,5 @@ a Collection of Music Projects by
 * Rebecca Julia
 * Anya Singhal
 * Mary Lynn Tom
+
+Created on 3/3/2018 - 3/4/2018 for the First Hack The Fog Hackathon
