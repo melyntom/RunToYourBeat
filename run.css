@@ -1,7 +1,6 @@
 body {
 	background: url("https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Running/Articles/Wahoo+Fitness+Article/article+image+of+woman+running+in+pink.jpg");
 	background-size: 100vw;
-	text-align: justify;
 	font-family: "Fjalla One";
 }
 
@@ -27,27 +26,15 @@ button:hover {
 h1 {
     margin-top: 0;
 	margin-bottom: 0;
+    color: white;
+    font-size: 35px;
     font-family: 'Righteous', cursive;
-}
-
-h1,
-h2 {
-	color: #ffffff;
-	font-size: 35px;
-	/* width: 650px; */
 }
 
 p {
 	color: #ffffff;
-	font-size: 25px;
     font-weight: 100;
-    line-height: 1.5;
-}
-
-ul,
-li {
-	color: #ffffff;
-	font-size: 20px;
+    line-height: 2;
 }
 
 .center {
@@ -58,12 +45,70 @@ li {
   padding: 40px;
 }
 
-.full {
-    overflow: hidden;
-}
-
 .instruct {
     margin-top: 100px;
     margin-right: 30px;
     font-family: 'Cabin', sans-serif;
+}
+
+.msg2 {
+    display: none;
+}
+
+#middle {
+    font-size: 25px;
+}
+
+#bottom {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 630px) {
+    button {
+        margin-top: 20px;
+    }
+    .msg {
+        display: none;
+    }
+    .msg2 {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #par {
+        overflow-y: scroll;
+        height: 300px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .instruct {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .med-col-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 1000px) {
+    .msg {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1499px) {
+    #middle {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .full {
+        overflow: hidden;
+    }
 }
