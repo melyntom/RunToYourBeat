@@ -4,33 +4,49 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		
+
 		<title>Run to the Beat</title>
-		
-		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-		
+
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Righteous|Cabin" rel="stylesheet">
+
+        <link href="framework.css" rel="stylesheet">
 		<link href="run.css" rel="stylesheet">
+
+        <script src="bpm.js"></script>
 	</head>
 	<body>
 		<div class="container">
-			<div class="col-12">
-				<h1>The total musical running experience.</h1>
-			</div>
-			<p>
-				To give you the perfect running music, we will match your running
-				<br>
-				speed with the tempo of the music we give you. To find your
-				<br>
-				running speed, please use the timer below to run for thirty
-				<br>
-				seconds at the speed you would usually run at. Count the
-				<br>
-				number of steps you made while running. Now, please enter
-				<br>
-				that number below.
-			</p>
-			<br>
-			<iframe width="550" height="350" src="https://www.youtube.com/embed/t_Bb4PfLvJE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+            <div class="row">
+                <div class="col-12">
+                    <h1>The Ultimate Music Running Experience.</h1>
+                </div>
+            </div>
+
+            <section class="row">
+                <div class="col-7">
+                    <p>
+                        Studies show that music can greatly affect a variety of things- from emotions to morality, and even exercise.
+                    </p>
+                    <p>
+        				To give you the perfect running music, we will match your running
+        				speed with the tempo of a given exercise playlist. To find your
+        				running speed, please use a timer to run for thirty seconds
+                        (a timer is provided). Count the number of steps you make.
+                    </p>
+                </div>
+            </section>
+
+			<div class="row">
+                <div class="col-2 center instruct">
+                    <p>Click the button to enter your result!</p>
+                    <button onclick="calculateBpm();">Click Me!</button>
+                </div>
+                <div class="col-4">
+                    <iframe width="550" height="350" src="https://www.youtube.com/embed/t_Bb4PfLvJE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+
 		</div>
 	</body>
-</html>      
+</html>
