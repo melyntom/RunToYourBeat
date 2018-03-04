@@ -1,6 +1,6 @@
 # Music To My Ears
 
-a Collection of Music Projects by
+a Project by
 
 * Emi Arriola
 * Nicholas Cheung
@@ -8,4 +8,4 @@ a Collection of Music Projects by
 * Anya Singhal
 * Mary Lynn Tom
 
-Created on 3/3/2018 - 3/4/2018 for the First Hack The Fog Hackathon
+Created on 3/3 - 3/4 for the Hack The Fog 2018 Hackathon
