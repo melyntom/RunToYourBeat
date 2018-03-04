@@ -1,6 +1,6 @@
 # Music To My Ears
 
-a Project by
+a Music Exercise Project by
 
 * Emi Arriola
 * Nicholas Cheung
