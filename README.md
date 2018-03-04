@@ -1,6 +1,6 @@
-# Music To My Ears
+# Run To The Beat
 
-a Music Exercise Project by
+a Musical Exercising Project by
 
 * Emi Arriola
 * Nicholas Cheung
