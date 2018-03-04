@@ -1,4 +1,4 @@
-# Run To The Beat
+# Run To Your Beat
 
 a Musical Exercising Project by
 
