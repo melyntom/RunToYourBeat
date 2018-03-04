@@ -1,6 +1,8 @@
 body {
+    background: #78a8bf;
 	background: url("https://content.active.com/Assets/Active.com+Content+Site+Digital+Assets/Running/Articles/Wahoo+Fitness+Article/article+image+of+woman+running+in+pink.jpg");
 	background-size: 100vw;
+    background-repeat: no-repeat;
 	font-family: "Fjalla One";
 }
 
