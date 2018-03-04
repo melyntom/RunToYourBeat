@@ -64,6 +64,22 @@ p {
     font-size: 20px;
 }
 
+#video {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 320px) {
+    #video {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 630px) {
+    #video {
+        width: 250px;
+    }
+}
+
 @media screen and (max-width: 630px) {
     button {
         margin-top: 20px;
@@ -73,6 +89,14 @@ p {
     }
     .msg2 {
         display: flex;
+    }
+    .sm-col-12 {
+        width: 100%;
+    }
+    #bottom {
+        display: block;
+        text-align: center;
+        margin: auto;
     }
 }
 
