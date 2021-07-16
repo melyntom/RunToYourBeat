@@ -1,6 +1,6 @@
 # Run To Your Beat
 
-a Musical Exercising Project by
+Authors:
 
 * Emi Arriola
 * Nicholas Cheung
@@ -8,5 +8,4 @@ a Musical Exercising Project by
 * Anya Singhal
 * Mary Lynn Tom
 
-Created on 3/3 - 3/4 for the Hack The Fog 2018 Hackathon
-First Place Winner
+Developed March 3-4, 2018 for the Hack The Fog 2018 Hackathon, First Place Winner
