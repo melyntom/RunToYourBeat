@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<title>Run To Your Beat</title>
+	<title>Run To Your Beat</title>
 
-		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Righteous|Cabin" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Righteous|Cabin" rel="stylesheet">
 
-        <link href="framework.css" rel="stylesheet">
-		<link href="run.css" rel="stylesheet">
+	<link href="framework.css" rel="stylesheet">
+	<link href="run.css" rel="stylesheet">
 
-        <script src="bpm.js"></script>
-	</head>
-	<body class="full">
-		<div class="container">
+	<script src="bpm.js"></script>
+</head>
 
-            <div class="row" id="top">
-                <div class="col-12">
-                    <h1>The Ultimate Music Running Experience.</h1>
-                </div>
-            </div>
-
-            <section class="row" id="middle">
-                <div class="col-7 med-col-12" id="par">
-                    <p>
-                        Studies show that music can greatly affect a variety of things- from emotions to morality, and even exercise.
-                    </p>
-                    <p>
-        				To give you the perfect running music, we will match your running
-        				speed with the tempo of a given exercise playlist. To find your
-        				running speed, please use a timer to run for thirty seconds
-                        (a timer is provided). Count the number of steps you make.
-                    </p>
-                </div>
-            </section>
-
-			<section class="row" id="bottom">
-                <div class="col-3 center instruct msg">
-                    <p>Click the button to enter your result!</p>
-                    <button onclick="calculateBpm();">Click Me!</button>
-                </div>
-                <div class="col-12 center instruct msg2">
-                    <button onclick="calculateBpm();">Click Me!</button>
-                </div>
-				<div class="col-6 sm-col-12">
-					<iframe id="video" src="https://www.youtube.com/embed/itRNoiCwpZU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				</div>
-            </section>
-
+<body class="full">
+	<div class="container">
+		
+		<div class="row" id="top">
+			<div class="col-12">
+			<h1>The Ultimate Music Running Experience.</h1>
+			</div>
 		</div>
-	</body>
+
+		<section class="row" id="middle">
+			<div class="col-7 med-col-12" id="par">
+				<p>
+					Studies show that music can greatly affect a variety of things- from emotions to morality, and even exercise.
+				</p>
+				
+				<p>
+					To give you the perfect running music, we will match your running
+					speed with the tempo of a given exercise playlist. To find your
+					running speed, please use a timer to run for thirty seconds
+					(a timer is provided). Count the number of steps you make.
+				</p>
+			</div>
+		</section>
+		
+		<section class="row" id="bottom">
+			<div class="col-3 center instruct msg">
+				<p>Click the button to enter your result!</p>
+				<button onclick="calculateBpm();">Click Me!</button>
+			</div>
+			<div class="col-12 center instruct msg2">
+				<button onclick="calculateBpm();">Click Me!</button>
+			</div>
+			<div class="col-6 sm-col-12">
+				<iframe id="video" src="https://www.youtube.com/embed/itRNoiCwpZU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</section>
+	
+	</div>
+
+</body>
 </html>
